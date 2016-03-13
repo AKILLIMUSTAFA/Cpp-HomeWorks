@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>othello_header.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>board_size.cpp</itemPath>
+      <itemPath>does_player_have_move.cpp</itemPath>
+      <itemPath>does_player_have_move_is_it_legal_move.cpp</itemPath>
+      <itemPath>does_player_have_move_reset_structs.cpp</itemPath>
+      <itemPath>does_player_have_move_which_ones_has_computer_icon_on_around.cpp</itemPath>
+      <itemPath>does_player_have_move_which_ones_is_player_icon.cpp</itemPath>
+      <itemPath>first_view.cpp</itemPath>
+      <itemPath>for_computer_do_best_move.cpp</itemPath>
+      <itemPath>for_computer_is_it_legal_move.cpp</itemPath>
+      <itemPath>for_computer_move.cpp</itemPath>
+      <itemPath>for_computer_reset_structs.cpp</itemPath>
+      <itemPath>for_computer_which_one_is_smartest_move.cpp</itemPath>
+      <itemPath>for_computer_which_ones_has_player_icon_on_around.cpp</itemPath>
+      <itemPath>for_computer_which_ones_is_empty_icon.cpp</itemPath>
+      <itemPath>for_player_is_it_empty_icon.cpp</itemPath>
+      <itemPath>for_player_is_it_legal_move.cpp</itemPath>
+      <itemPath>for_player_move.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>paint_board.cpp</itemPath>
+      <itemPath>scoreboard.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="board_size.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="does_player_have_move.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="does_player_have_move_is_it_legal_move.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="does_player_have_move_reset_structs.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="does_player_have_move_which_ones_has_computer_icon_on_around.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="does_player_have_move_which_ones_is_player_icon.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="first_view.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="for_computer_do_best_move.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="for_computer_is_it_legal_move.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="for_computer_move.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="for_computer_reset_structs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="for_computer_which_one_is_smartest_move.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="for_computer_which_ones_has_player_icon_on_around.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="for_computer_which_ones_is_empty_icon.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="for_player_is_it_empty_icon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="for_player_is_it_legal_move.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="for_player_move.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="othello_header.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="paint_board.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="scoreboard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="board_size.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="does_player_have_move.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="does_player_have_move_is_it_legal_move.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="does_player_have_move_reset_structs.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="does_player_have_move_which_ones_has_computer_icon_on_around.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="does_player_have_move_which_ones_is_player_icon.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="first_view.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="for_computer_do_best_move.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="for_computer_is_it_legal_move.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="for_computer_move.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="for_computer_reset_structs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="for_computer_which_one_is_smartest_move.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="for_computer_which_ones_has_player_icon_on_around.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="for_computer_which_ones_is_empty_icon.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="for_player_is_it_empty_icon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="for_player_is_it_legal_move.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="for_player_move.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="othello_header.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="paint_board.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="scoreboard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
